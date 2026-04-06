@@ -1,0 +1,17 @@
+USE EstudoApiDb;
+GO
+
+CREATE TABLE Produto (
+	Id INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	Nome NVARCHAR(100) NOT NULL,
+	Preco DECIMAL(10,2) NOT NULL
+);
+GO
+
+INSERT INTO Produto (Nome, Preco)
+VALUES	('Teclado', 99.90),
+		('Mouse', 49.90);
+
+GO
+
+SELECT * FROM Produto;
