@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace EstudoApi.Models;
+namespace EstudoApi.Domains;
 
 [Table("Produto")]
 public partial class Produto

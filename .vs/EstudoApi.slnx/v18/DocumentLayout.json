@@ -1,22 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\47786092803\\Desktop\\Dev3Sem\\EstudoApi\\",
+  "WorkspaceRootPath": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\dev3sem\\estudoapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\dev3sem\\estudoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\dev3sem\\estudoapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\dev3sem\\estudoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\dtos\\produtocriardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:dtos\\produtocriardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\dtos\\produtolerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:dtos\\produtolerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\domains\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:domains\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\interface\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:interface\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\exceptions\\naoencontrouexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:exceptions\\naoencontrouexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|c:\\users\\47786092803\\desktop\\gitapicriadeleta\\apirevisaocriadeleta\\estudoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F521AC00-384A-FC5E-D630-8FF2C43531D6}|EstudoApi.csproj|solutionrelative:estudoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,27 +58,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\Dev3Sem\\EstudoApi\\Controllers\\ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\47786092803\\Desktop\\Dev3Sem\\EstudoApi\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAYwDwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwF8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T13:19:31.261Z"
+              "WhenOpened": "2026-04-06T13:19:31.261Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "ProdutoLerDto.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\DTOs\\ProdutoLerDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProdutoLerDto.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\DTOs\\ProdutoLerDto.cs",
+              "RelativeToolTip": "DTOs\\ProdutoLerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:02:45.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwCQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:05:53.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:12:52.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T13:12:44.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutoCriarDto.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\DTOs\\ProdutoCriarDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProdutoCriarDto.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\DTOs\\ProdutoCriarDto.cs",
+              "RelativeToolTip": "DTOs\\ProdutoCriarDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:02:03.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Domains\\Produto.cs",
+              "RelativeDocumentMoniker": "Domains\\Produto.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Domains\\Produto.cs",
+              "RelativeToolTip": "Domains\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:00:35.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Interface\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Interface\\IProdutoRepository.cs",
+              "RelativeToolTip": "Interface\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:03:49.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\Dev3Sem\\EstudoApi\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\47786092803\\Desktop\\Dev3Sem\\EstudoApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -55,27 +179,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\Dev3Sem\\EstudoApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\47786092803\\Desktop\\Dev3Sem\\EstudoApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "NaoEncontrouException.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Exceptions\\NaoEncontrouException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\NaoEncontrouException.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Exceptions\\NaoEncontrouException.cs",
+              "RelativeToolTip": "Exceptions\\NaoEncontrouException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T13:12:52.83Z"
+              "WhenOpened": "2026-04-08T11:15:37.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\Dev3Sem\\EstudoApi\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\47786092803\\Desktop\\Dev3Sem\\EstudoApi\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Exceptions\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Exceptions\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\Exceptions\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Exceptions\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T13:12:44.26Z",
+              "WhenOpened": "2026-04-08T11:16:37.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EstudoApi",
+              "DocumentMoniker": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\EstudoApi.csproj",
+              "RelativeDocumentMoniker": "EstudoApi.csproj",
+              "ToolTip": "C:\\Users\\47786092803\\Desktop\\GitAPICriaDeleta\\APIRevisaoCriaDeleta\\EstudoApi.csproj",
+              "RelativeToolTip": "EstudoApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-08T11:00:53.279Z",
               "EditorCaption": ""
             }
           ]

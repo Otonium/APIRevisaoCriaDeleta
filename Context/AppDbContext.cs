@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using EstudoApi.Domains;
 using Microsoft.EntityFrameworkCore;
 
-namespace EstudoApi.Models;
+namespace EstudoApi.Context;
 
 public partial class AppDbContext : DbContext
 {

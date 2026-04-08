@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[EstudoApi.Models.Produto, EstudoApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[EstudoApi.DTOs.ProdutoLerDto, EstudoApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,14 +28,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "produto",
-        "Type": "EstudoApi.Models.Produto",
+        "Name": "input",
+        "Type": "EstudoApi.DTOs.ProdutoCriarDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "EstudoApi.Models.Produto",
+        "Type": "EstudoApi.DTOs.ProdutoLerDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EstudoApi.Models.Produto",
+        "Type": "EstudoApi.DTOs.ProdutoLerDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -82,6 +82,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EstudoApi.Controllers.ProdutosController",
+    "Method": "DeleteByNome",
+    "RelativePath": "api/Produtos/nome/{nome}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

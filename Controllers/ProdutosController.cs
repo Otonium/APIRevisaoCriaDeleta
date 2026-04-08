@@ -1,63 +1,109 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using EstudoApi.Models;
+using EstudoApi.Domains;
+using EstudoApi.Context;
+using EstudoApi.Exceptions;
+using EstudoApi.Interface;
+using EstudoApi.DTOs;
 
 namespace EstudoApi.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class ProdutosController : ControllerBase
     {
-        private readonly AppDbContext _db; // Guarda o acesso ao banco
-
-        public ProdutosController(AppDbContext db) //O ASP.NET entrega o AppDbContext automaticamente aqui
-        { 
-            _db = db; 
+        private readonly IProdutoRepository _repo;
+        public ProdutosController(IProdutoRepository repo)
+        {
+            _repo = repo; 
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Produto>>>GetAll()
+        public async Task<ActionResult<List<ProdutoLerDto>>> GetAll()
         {
-            var lista = await _db.Produtos.ToListAsync(); //Busca todos os produtos no banco
-            return Ok(lista);
+            var produtos = await _repo.GetAllAsync();
+
+            var dto = produtos.Select(p => new ProdutoLerDto
+            {
+                Id = p.Id,
+                Nome = p.Nome,
+                Preco = p.Preco
+            }).ToList();
+
+            return Ok(dto);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Produto>>GetById(int id)
+        public async Task<ActionResult<ProdutoLerDto>> GetById(int id)
         {
-            var produto = await _db.Produtos.FindAsync(id); //Procura pelo Id
+            var produto = await _repo.GetByIdAsync(id);
 
-            if(produto == null)
+            if (produto == null)
             {
-                return NotFound();
+                throw new NaoEncontrouException($"Produto {id} não encontrado.");
             }
-            return Ok(produto);
+
+            var dto = new ProdutoLerDto
+            {
+                Id = produto.Id,
+                Nome = produto.Nome,
+                Preco = produto.Preco
+            };
+
+            return Ok(dto);
         }
 
         [HttpPost]
-        public async Task<ActionResult<Produto>>Create(Produto produto)
+        public async Task<ActionResult<ProdutoLerDto>> Create(ProdutoCriarDto input)
         {
-            if(string.IsNullOrWhiteSpace(produto.Nome))
+            if (string.IsNullOrWhiteSpace(input.Nome))
             {
-                return BadRequest("Nome é obrigatório.");
+                return BadRequest("Nome é obrigatorio.");
             }
-            _db.Produtos.Add(produto);//Pedido de inserção
-            await _db.SaveChangesAsync();//Confirma no banco (Faz o INSERT)
-            return CreatedAtAction(nameof(GetById), new { id = produto.Id }, produto);
+
+            if (input.Preco <= 0)
+            {
+                return BadRequest("Preço precisa ser maior que zero.");
+            }
+
+            var produto = new Produto
+            {
+                Nome = input.Nome.Trim(),
+                Preco = input.Preco
+            };
+
+            var criado = await _repo.CreateAsync(produto);
+
+            var dto = new ProdutoLerDto
+            {
+                Id = criado.Id,
+                Nome = criado.Nome,
+                Preco = criado.Preco
+            };
+
+            return CreatedAtAction(nameof(GetById), new { id = dto.Id }, dto);
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var produto = await _db.Produtos.FindAsync(id); //Procura o produto
-            if(produto == null)
-            {
-                return NotFound();
-            }
+            var apagou = await _repo.DeleteAsync(id);
 
-            _db.Produtos.Remove(produto); //Marca para deletar
-            await _db.SaveChangesAsync(); //Confirma no banco (faz o DELETE)
+            if (!apagou)
+                return NotFound($"Produto {id} não encontrado.");
+
+            return NoContent();
+        }
+
+        [HttpDelete("nome/{nome}")]
+        public async Task<IActionResult> DeleteByNome(string nome)
+        {
+            var apagou = await _repo.DeleteByNomeAsync(nome);
+
+            if (!apagou)
+                return NotFound($"Produto {nome} não encontrado.");
+
             return NoContent();
         }
     }

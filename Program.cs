@@ -1,5 +1,7 @@
+using EstudoApi.Context;
+using EstudoApi.Interface;
+using EstudoApi.Repositories;
 using Microsoft.EntityFrameworkCore;
-using EstudoApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
